@@ -4,8 +4,8 @@
 class Packman
 {
 public:
-	/*Packman(Game* const game);*/
-	Packman();
+	Packman(Game* const game);
+
 	void move();
 	void getDirection();//направение
 	bool testForCollision();
@@ -20,7 +20,7 @@ public:
 	void setXInit(int x);
 	void setLeftFruit(int leftFruit);
 
-	int getYInit();
+	int getYInit(); 
 	int getXInit();
 	int getLeftFruit();
 

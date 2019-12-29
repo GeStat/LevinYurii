@@ -47,7 +47,7 @@ int Packman::getLeftFruit()
 	return leftFruit_; 
 }
 
-Packman::Packman() 
+Packman::Packman(Game* const game)
 {
 	hisScore_ = 0;
 }
